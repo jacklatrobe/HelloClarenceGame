@@ -1,0 +1,44 @@
+name: Feature request
+description: Propose gameplay, content, or tooling work.
+title: 'feat: '
+labels: ['enhancement']
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the player-facing gap, not the implementation.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+      description: Rough is fine. Note alternatives you considered.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Gameplay / systems
+        - Content (dialogue, maps, art)
+        - Client rendering / UI
+        - Server / API
+        - Tooling / CI / docs
+    validations:
+      required: true
+
+  - type: dropdown
+    id: size
+    attributes:
+      label: Rough size
+      options:
+        - Small (a PR this week)
+        - Medium (a few PRs)
+        - Large (needs a design doc first)
+    validations:
+      required: true

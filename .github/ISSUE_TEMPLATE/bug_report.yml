@@ -1,0 +1,55 @@
+name: Bug report
+description: Something in Hello Clarence is broken or behaves oddly.
+title: 'fix: '
+labels: ['bug']
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for filing a bug. Small, specific reports get fixed fastest.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Include the exact error text if there is one.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. npm run dev
+        2. Walk to Clarence
+        3. Press E
+        4. ...
+    validations:
+      required: true
+
+  - type: input
+    id: node-version
+    attributes:
+      label: Node version
+      description: Output of `node --version`.
+      placeholder: v24.13.0
+    validations:
+      required: false
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Where did it happen?
+      options:
+        - Local dev (npm run dev)
+        - Production build (npm run build && npm start)
+        - Other / unsure
+    validations:
+      required: true

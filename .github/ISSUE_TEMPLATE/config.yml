@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security issue
+    url: https://github.com/jacklatrobe/HelloClarenceGame/security/advisories/new
+    about: Report a vulnerability privately instead of opening a public issue.
+  - name: How we work
+    url: https://github.com/jacklatrobe/HelloClarenceGame/blob/main/CONTRIBUTING.md
+    about: Branching, commits, and the definition of done.

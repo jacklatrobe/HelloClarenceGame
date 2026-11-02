@@ -1,0 +1,8 @@
+* @jacklatrobe
+
+# Review the governance files with extra care.
+/.github/ @jacklatrobe
+/.husky/ @jacklatrobe
+/scripts/ @jacklatrobe
+/package.json @jacklatrobe
+/package-lock.json @jacklatrobe
