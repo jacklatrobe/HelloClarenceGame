@@ -39,7 +39,7 @@
   "dependencies": {
     "fastify": "^5.12.7",
     "@fastify/static": "^10.1.8",
-    "phaser": "~3.90.0"
+    "phaser": "~4.2.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
